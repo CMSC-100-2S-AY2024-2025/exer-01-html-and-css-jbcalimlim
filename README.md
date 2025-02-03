@@ -11,7 +11,7 @@ You can view my live website here:
 1. First, create a repository and push your `index.html` and `style.css` files.
 2. From your repository, go to its **Settings** and scroll down to the **Pages** section under the **Code and Automation** category.
 3. Under the **Build and Deployment** section, select **Deploy from a branch**.
-4. Under **Branch**, use the dropdown menu and select a publishing source (e.g., `main` or `gh-pages`).
+4. Under **Branch**, use the dropdown menu and select a publishing source (I used `Static`).
 5. After selecting the source and branch, GitHub Pages will show you the live URL.
 
 ## Key Takeaways:
