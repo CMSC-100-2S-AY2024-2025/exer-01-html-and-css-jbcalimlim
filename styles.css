@@ -1,7 +1,7 @@
 body {
-    background: linear-gradient(135deg, #004d7a, #008793, #00bf72, #a8eb12);
+    background: linear-gradient(135deg, #0e95e4, #008793, #00bf72, #a8eb12);
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    height: 100vh; 
+    height: 200vh; 
     margin: 0;
     padding: 0;
 }
@@ -48,20 +48,24 @@ body {
 }
 
 .logo {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .profile-pic {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .content1 {
     width: 800px;
     border: 2px solid black;
     padding: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -75,8 +79,6 @@ img {
 }
 
 .about-header {
-    background: linear-gradient(#add8e6, #6495ed, #87ceeb);
-    font-family:Arial, Helvetica, sans-serif;
     font-style: italic;
 }
 
@@ -104,3 +106,13 @@ img {
     padding: 10px;
 }
 
+.content3 {
+    background-color: linear-gradient(135deg, #004d7a, #008793, #00bf72, #a8eb12);
+    width: 800px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 30px;
+    height: 575px;
+    display: flex;
+    justify-content: space-between;
+}
